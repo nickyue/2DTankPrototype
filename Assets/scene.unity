@@ -402,7 +402,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.4, y: 0}
-  m_ConnectedAnchor: {x: 0.14185578, y: 0.47334144}
+  m_ConnectedAnchor: {x: 0.14185578, y: 0.47334135}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 10
@@ -1023,6 +1023,7 @@ GameObject:
   - component: {fileID: 1331776137}
   - component: {fileID: 1331776136}
   - component: {fileID: 1331776135}
+  - component: {fileID: 1331776139}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1092,6 +1093,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1331776139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1331776134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5429510fb2e62c541bc9f30ea303006c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 457719686}
 --- !u!1 &1491834826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,7 +1264,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2114366355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 2.14, z: 0}
+  m_LocalPosition: {x: -5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2133527786}

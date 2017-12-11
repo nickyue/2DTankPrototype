@@ -6,12 +6,16 @@ public class Controller : MonoBehaviour {
     enum Parts{
         Body,
         FWheel,
-        BWheel
+        BWheel,
+        Barrel
     };
     GameObject FWheel;
     GameObject BWheel;
-    
+    GameObject locBarrel
+
+
     JointMotor2D  locMoter;
+    HingeJoint2D Barrel_Moter;
     public float torqueMax = 100f;
     public float speed = 40;
 
@@ -21,6 +25,7 @@ public class Controller : MonoBehaviour {
 	void Start () {
         FWheel = this.gameObject.transform.GetChild((int)Parts.FWheel).gameObject;
         BWheel = this.gameObject.transform.GetChild((int)Parts.BWheel).gameObject;
+        locBarrel = this.gameObject.transform.GetChild((int)Parts.Barrel).gameObject;
 	}
 	
 	// Update is called once per frame

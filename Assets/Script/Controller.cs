@@ -11,7 +11,7 @@ public class Controller : MonoBehaviour {
     };
     GameObject FWheel;
     GameObject BWheel;
-    GameObject locBarrel
+    GameObject locBarrel;
 
 
     JointMotor2D  locMoter;

@@ -246,11 +246,39 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 118854625}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.967, y: 0.2, z: 0.09581449}
+  m_LocalPosition: {x: -0.75, y: -0.485, z: 0.09581449}
   m_LocalScale: {x: 0.8383586, y: 0.85368705, z: 1}
   m_Children: []
   m_Father: {fileID: 2114366356}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &201136342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 201136343}
+  m_Layer: 0
+  m_Name: RefTrans
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &201136343
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 201136342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 457719687}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &436866487
 GameObject:
@@ -304,6 +332,7 @@ GameObject:
   - component: {fileID: 457719689}
   - component: {fileID: 457719688}
   - component: {fileID: 457719690}
+  - component: {fileID: 457719691}
   m_Layer: 0
   m_Name: barrel
   m_TagString: Untagged
@@ -318,9 +347,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 457719686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.268, y: 1.166, z: 0}
+  m_LocalPosition: {x: 0.55100006, y: 0.481, z: 0}
   m_LocalScale: {x: 1.1603061, y: 0.2812737, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 201136343}
   m_Father: {fileID: 2114366356}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -402,7 +432,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.4, y: 0}
-  m_ConnectedAnchor: {x: 0.14185578, y: 0.47334135}
+  m_ConnectedAnchor: {x: 0.14185575, y: 0.47334135}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 10
@@ -411,6 +441,31 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -180
     m_UpperAngle: 0
+--- !u!61 &457719691
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457719686}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &484966287
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,7 +560,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 484966287}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.45, y: 0.22, z: 0.09581449}
+  m_LocalPosition: {x: 0.73299974, y: -0.46500003, z: 0.09581449}
   m_LocalScale: {x: 0.8383586, y: 0.85368705, z: 1}
   m_Children: []
   m_Father: {fileID: 2114366356}
@@ -765,11 +820,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4696838921844022, guid: b89b8c36fbedc734ca75506559625499, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.698
+      value: -0.019000113
       objectReference: {fileID: 0}
     - target: {fileID: 4696838921844022, guid: b89b8c36fbedc734ca75506559625499, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.874
+      value: 0.18900001
       objectReference: {fileID: 0}
     - target: {fileID: 4696838921844022, guid: b89b8c36fbedc734ca75506559625499, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1104,7 +1159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5429510fb2e62c541bc9f30ea303006c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 457719686}
+  player: {fileID: 2133527782}
 --- !u!1 &1491834826
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,7 +1319,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2114366355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2133527786}
@@ -1287,7 +1342,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torqueMax: 1000
-  speed: 1000
+  speed: 700
+  barrel_speed: 35
 --- !u!1 &2133527782 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1814670689913624, guid: b89b8c36fbedc734ca75506559625499,

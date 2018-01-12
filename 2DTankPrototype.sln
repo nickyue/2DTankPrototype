@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DTankPrototype", "2DTankPrototype.csproj", "{AAB8FB0B-DCCE-2270-E48F-43309CABA901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DTankPrototype.Editor", "2DTankPrototype.Editor.csproj", "{1EB5A77B-328B-4386-15DC-7D78C6574825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAB8FB0B-DCCE-2270-E48F-43309CABA901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB8FB0B-DCCE-2270-E48F-43309CABA901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB8FB0B-DCCE-2270-E48F-43309CABA901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB8FB0B-DCCE-2270-E48F-43309CABA901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB5A77B-328B-4386-15DC-7D78C6574825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB5A77B-328B-4386-15DC-7D78C6574825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB5A77B-328B-4386-15DC-7D78C6574825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB5A77B-328B-4386-15DC-7D78C6574825}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

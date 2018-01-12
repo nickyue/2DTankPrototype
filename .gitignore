@@ -3,5 +3,6 @@ Temp/*
 UnityPackageManager/*
 Assets/Destructible 2D/Documentation/*
 Assets/Destructible 2D/Examples/*
+!Assets/Destructible 2D/Examples/Scripts
 Assets/Destructible 2D/Materials/*
 

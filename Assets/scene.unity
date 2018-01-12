@@ -1344,7 +1344,7 @@ MonoBehaviour:
   torqueMax: 1000
   speed: 700
   barrel_speed: 35
-  ProjectilePrefab: {fileID: 189068, guid: 9cf09915305fee7439ac78dd5ade1391, type: 2}
+  ProjectilePrefab: {fileID: 189068, guid: f0e3ca7ba9337794aa8f10f43c4e4e55, type: 2}
 --- !u!1 &2133527782 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1814670689913624, guid: b89b8c36fbedc734ca75506559625499,

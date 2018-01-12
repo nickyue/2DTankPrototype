@@ -1271,7 +1271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1749582893}
   m_Layer: 0
-  m_Name: Terrian
+  m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1344,6 +1344,7 @@ MonoBehaviour:
   torqueMax: 1000
   speed: 700
   barrel_speed: 35
+  ProjectilePrefab: {fileID: 189068, guid: 9cf09915305fee7439ac78dd5ade1391, type: 2}
 --- !u!1 &2133527782 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1814670689913624, guid: b89b8c36fbedc734ca75506559625499,
